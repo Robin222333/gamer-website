@@ -140,6 +140,27 @@ body{
 .box-para{
     text-align: center;
 }
+/* this is section-3 */
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.feature-content{
+    width: 300px;
+}
+.png img{
+    width: 90%;
+    margin-left: 100px;
+}
+.position{
+    width: 300px;
+    position: relative;
+    bottom: 200px;
+    margin: 0px;
+}
+
 /* this is section-4.. */
 section{
    width: auto;
@@ -233,6 +254,23 @@ section{
     }
     .box-1 img{
         width: 90%;
+    }
+    /* this is section-3..  */
+    .features{
+        flex-direction: column;
+    }
+    .feature-content{
+        width: 200px;
+        text-align: center;
+    }
+    .png img{
+        width: 100%;
+        margin: 0;
+        
+    }
+    .position img{
+        position: static;
+        width: 60%;
     }
     /* this is section-4.. */
     .section-4{
