@@ -128,11 +128,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    /* position: absolute; */
 }
 .box-1{
     width: 400px;
     height: 500px;
     border: 2px solid red;
+    /* position: absolute; */
 }
 .box-1 img{
     width: 100%;
@@ -164,6 +166,9 @@ body{
 /* this is section-4.. */
 section{
    width: auto;
+}
+.features{
+    margin-top: 50px;
 }
 .play-games{
     display: grid;
