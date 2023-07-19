@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 10px;
+}
+.head-logo-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid red;
+}
+.heading-title{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.G{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+/* .title-logo{
+    width: 86.041px;
+    height: 40px;
+} */
+.head-list{
+    display: flex;
+    align-items: center; 
+    list-style: none;
+    gap: 12px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 3px 10px;
+    gap: 8px;                                           
+}
+/* this is section-1 */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 12.5rem;
+    /* width: 100%; */
+}
+.play{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.5rem;
+}
+ .goat{
+    font-size: 3rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+    
+.banner-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.banner-description{
+    text-align: center;
+}
+.banner-photo img{
+    max-height: 80%;
+}
+
+
+/* this is section-2.. */
+.online-games-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 10px;
+
+}
+.online-description{
+    text-align: center;
+    font-size: 1rem;
+}
+.online-heading{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.online-para{
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    font-size: 1rem;
+}
+.box{
+    display: flex;
+    margin: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* gap: .5rem; */
+}
+.box-1{
+    width: 21rem;
+    height: 25rem;
+    padding: .8rem;
+    text-align: center;
+}
+
+/* this is section-3.. */
+.play-games{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* padding: 1rem 7rem; */
+    gap: .5rem;
+    width: 100%;
+}
+.squere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* margin-left: 1rem; */
+    /* width: 100%;
+    text-align: center; */
+}
+.squere img{
+    height: 3rem;
+    width: 3rem;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .navber{
+        flex-direction: column;
+        text-align: center;
+    }
+    .head-list{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column;
+        padding: .5rem;
+        width: auto;
+    }
+    .banner-photo img{
+        /* margin: 0px auto; */
+        width: 100%;
+        text-align: center;
+        /* padding: 20px; */
+    }
+
+    /* this is section-2.. */
+    .online-games-container{
+        flex-direction: column;
+        /* text-align: center;
+        font-size: 1rem; */
+    }
+    .online-heading{
+        width: auto;
+    }
+    .online-para{
+        width: auto;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .box-1{
+        width: auto;
+        height: auto;
+    }
+    .box-para{
+        width: 300px;
+    }
+    .box-1 img{
+        width: 70%;
+    }
+
+
+    /* this is section-3.. */
+    .play-games{
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        padding: 0;
+    }
+}
