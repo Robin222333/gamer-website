@@ -101,8 +101,12 @@ body{
     cursor: pointer;
 }
 .btn-primary:hover {
-    background-color: #680841;
-    border: 2px solid #F948B2;
+    background: #d81389;
+    color: #FFF;
+}
+.btn-secondary:hover{
+    background: #1995ca;
+    color: #FFF;
 }
 
 
@@ -155,6 +159,11 @@ section{
     align-items: center;
     width: 150px;
     height: 50px;
+}
+.squere:hover{
+    background: #e9b6b6;
+    border-radius: 40px;
+    border: #927777;
 }
 .squere img{
    width: 30%;
