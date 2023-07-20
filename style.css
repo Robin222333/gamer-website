@@ -115,6 +115,10 @@ body{
     justify-content: center;
     gap: 10px;
 }
+/* .middle-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+} */
 .image-container {
     position: relative;
     display: inline-block;
@@ -264,21 +268,15 @@ section{
     .banner-container{
         flex-direction: column;
     }
-    /* .banner-photo {
-        width: auto;
-    } */
+    .banner-photo {
+        width: 150%;
+    }
     /* this is section-2..  */
     .online-description{
         width: 100%;
         margin: 0 auto;
     }
-    .box{
-        flex-direction: column;
-        text-align: center;
-    }
-    .box-1 img{
-        width: 90%;
-    }
+     
     /* this is section-3..  */
     .features{
         flex-direction: column;
@@ -323,7 +321,7 @@ section{
      header{
         padding: 50px;
      }
-    .navber, .features{
+    .navber, .features, .middle{
         flex-direction: column;
     }
     /* this is main part..  */
@@ -342,11 +340,7 @@ section{
         width: 100%;
         margin: 0 auto;
     }
-    .box{
-        flex-direction: column;
-        text-align: center;
-    }
-    .box-1 img{
-        width: 90%;
+    .middle{
+        width: 100%;
     }
 }
