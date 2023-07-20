@@ -211,9 +211,10 @@ section{
      height: 50px;
  }
  .squere:hover{
-     background: #e9b6b6;
+     /* background: #e9b6b6; */
      border-radius: 40px;
-     border: #927777;
+     color: #F948B2;
+     border: 1px solid rgb(240, 84, 84);
  }
  .squere img{
     width: 30%;
